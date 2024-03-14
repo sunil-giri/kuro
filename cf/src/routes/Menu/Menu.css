@@ -1,0 +1,35 @@
+.menu-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.menu-items header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+}
+.menu-items .main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.menu-items footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 60%;
+}
+.menu-items footer .cta-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
